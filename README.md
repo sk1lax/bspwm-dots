@@ -1,14 +1,14 @@
 # Info
 ### Software
 - WM
-  _ Dock - Plank
-  _ Bar - Polybar
-  _ Launcher - Rofi
-  _ WM - Bspwm
+  - Dock - Plank
+  - Bar - Polybar
+  - Launcher - Rofi
+  - WM - Bspwm
 - Mics
-  _ Image viewer - Viewnior
-  _ Media Player - VLC
-  _ FM - yazi, Nemo
+  - Image viewer - Viewnior
+  - Media Player - VLC
+  - FM - yazi, Nemo
 
 ### Theming
 - GTK theme - [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)
