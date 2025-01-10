@@ -1,0 +1,70 @@
+#! /bin/bash
+
+#▗▖    ▄▄▄ ▄▄▄▄  ▄   ▄ ▄▄▄▄
+#▐▌   ▀▄▄  █   █ █ ▄ █ █ █ █
+#▐▛▀▚▖▄▄▄▀ █▄▄▄▀ █▄█▄█ █   █
+#▐▙▄▞▘     █
+#          ▀
+#						https://github.com/sk1lax/bspwm-dots
+#
+
+#*****----- Workspaces -----*****
+bspc monitor -d '1' '2' '3' '4' '5' '6' '7' '8' '9' &
+#*****----- BSPWN Launch -----*****
+export XDG_CURRENT_DESKTOP='bspwm'
+
+sxhkd &
+feh --no-fehbg --bg-fill ~/Pictures/bg.png &
+picom &
+plank &
+flameshot &
+alsa &
+#xdotool search --name Plank windowraise &
+#blueman-applet &
+#nm-applet &
+~/.config/bspwm/launch.sh &
+#~/.config/bspwm/plank.sh &
+
+#*****----- BSPWN Rules -----*****
+bspc rule -a firefox center=true state=tiled &
+#bspc rule -a firefox desktop='^2' follow=on
+bspc rule -a TelegramDesktop state=floating center=true follow=on rectangle=485x1000+0+0
+bspc rule -a gnome-calculator state=floating rectangle=374x488 &
+bspc rule -a pavucontrol follow=on state=floating rectangle=800x400+1120+630 &
+bspc rule -a SimpleScreenRecorder center=true  follow=on state=floating &
+bspc rule -a vlc follow=on center=true state=floating &
+bspc rule -a file-roller follow=on center=true state=floating &
+bspc rule -a Viewnior state=floating center=true &
+#bspc rule -a plank layer=above manage=on border=off focus=off locked=on
+#*****----- Window Gaps -----*****
+bspc config gapless_monocle false &
+bspc config window_gap 3 &
+#*****----- Window Borders -----*****
+#bspc config focused_border_color "#"
+#bspc config normal_borredshift-gtkder_color "#"
+#bspc config active_border_color "#"
+#bspc config presel_feedback_color "#"
+bspc config border_width 0 &
+#*****----- Fix Pointer -----*****
+xsetroot -cursor_name left_ptr &
+
+#*****----- BSPWM Configs -----*****
+bspc config focus_follows_pointer true &
+bspc config pointer_modifier super &
+bspc config pointer_action1 move &
+bspc config pointer_action2 resize_side &
+bspc config pointer_action3 resize_corner &
+#*****----- Key to move/resize window -----*****
+bspc config pointer_modifier	super &
+#*****----- I dunno anything about these :d -----*****
+bspc config single_monocle	     true &
+bspc config gapless_monocle      false &
+bspc config paddingless_monocle	 true &
+bspc config borderless_monocle   true &
+bspc config split_ratio          0.5 &
+
+bspc config focus_follows_pointer true &
+
+bspc config automatic_scheme          longest_side
+bspc config initial_polarity          second_child
+bspc config removal_adjustment        true

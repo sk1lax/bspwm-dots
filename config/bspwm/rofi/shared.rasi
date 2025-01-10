@@ -1,0 +1,14 @@
+/**
+ * original rofi configs   belongs to @adi1090x
+ *
+ * adapta    catppuccin    everforest    navy       paper
+ * arc       cyberpunk     gruvbox       nord       solarized
+ * black     dracula       lovelace      onedark    yousai
+ *
+ **/
+
+@import "~/.config/bspwm/rofi/colors/rice.rasi"
+
+* {
+    font: "RobotoMonoNerdFont Regular 14";
+}

@@ -1,0 +1,40 @@
+# Color scheme taken from graphite gtk
+[font]
+size = 9
+
+#builtin_box_drawing = true
+
+[font.normal]
+family = "RobotoMonoNerdFont"
+
+# Default colors
+[colors.primary]
+background = "#0f0f0f"
+foreground = "#c1c1c1"
+
+# Cursor colors
+[colors.cursor]
+cursor = "#bb9af7"
+text = "#1a1b26"
+
+# Normal colors
+[colors.normal]
+black="#2f2f2f"
+red="#ee5396"
+green="#4caf50"
+yellow="#fbc02d"
+blue="#3684dd"
+magenta="#ec407a"
+cyan="#009688"
+white="#ebebeb"
+
+# Bright colors
+[colors.bright]
+black="#2f2f2f"
+red="#ee5396"
+green="#4caf50"
+yellow="#fbc02d"
+blue="#3684dd"
+magenta="#ec407a"
+cyan="#009688"
+white="#ebebeb"
