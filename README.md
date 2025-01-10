@@ -9,3 +9,5 @@ add info
 setup & software info
 
 add credits
+
+add wallpapers
