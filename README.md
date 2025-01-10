@@ -5,7 +5,7 @@
 - Kvantum theme - [Colors & blackness fork of Graphite-kde](https://github.com/KF-Art/Graphite-kvantum-colors)
 - Icons - [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
-Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles)
+Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles),  [adi1090x](https://github.com/adi1090x/)
 ## TO do:
 relocate wm related configs
 
