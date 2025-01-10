@@ -9,6 +9,7 @@
 | FM  | yazi, Nemo  |
 | Shell  | Fish (stock cachy os config)  |
 | Term  | Alacritty  |
+| Notification  | Dunst  |
 
 | | Theming |
 | ------------- | ------------- |
