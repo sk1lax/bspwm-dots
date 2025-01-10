@@ -16,6 +16,8 @@
 - GTK theme - [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)
 - Kvantum theme - [Colors & blackness fork of Graphite-kde](https://github.com/KF-Art/Graphite-kvantum-colors)
 - Icons - [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+| Theming |
 | ------------- | ------------- |
 | Font  |  Roboto Mono & Roboto Mono Nerd & Roboto  |
 | GTK theme  | [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)  |
