@@ -1,11 +1,14 @@
 # Info
 ### Software
-- WM
-  - Dock - Plank
-  - Bar - Polybar
-  - Launcher - Rofi
-  - WM - Bspwm
-  - FM - yazi, Nemo
+
+| Distro  | Cachy OS |
+| ------------- | ------------- |
+| Dock  | Plank  |
+| Bar  | Polybar  |
+| Launcher  | Rofi  |
+| WM  | Bspwm  |
+| FM  | yazi, Nemo  |
+| Shell  | Fish (stock cachy os config)  |
 
 - Mics
   - Image viewer - Viewnior
