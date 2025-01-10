@@ -1,4 +1,11 @@
-# bspwm-dots
+# Info
+
+## Theming
+- GTK theme - [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)
+- Kvantum theme - [Colors & blackness fork of Graphite-kde](https://github.com/KF-Art/Graphite-kvantum-colors)
+- Icons - [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles)
 ## TO do:
 relocate wm related configs
 
@@ -11,3 +18,7 @@ setup & software info
 add credits
 
 add wallpapers
+
+gestures
+# Credits
+
