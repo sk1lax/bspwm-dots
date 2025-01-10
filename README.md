@@ -1,5 +1,5 @@
 # Info
-| Software |
+| | Software |
 | ------------- | ------------- |
 | Distro  | Cachy OS (Arch)  |
 | Dock  | Plank  |
@@ -10,7 +10,7 @@
 | Shell  | Fish (stock cachy os config)  |
 | Term  | Alacritty  |
 
-| Theming | |
+| | Theming |
 | ------------- | ------------- |
 | Font  |  Roboto Mono & Roboto Mono Nerd & Roboto  |
 | GTK theme  | [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)  |
