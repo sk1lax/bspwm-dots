@@ -1,8 +1,7 @@
 # Info
-### Software
-
-| Distro  | Cachy OS |
+| Software |
 | ------------- | ------------- |
+| Distro  | Cachy OS (Arch)  |
 | Dock  | Plank  |
 | Bar  | Polybar  |
 | Launcher  | Rofi  |
