@@ -25,13 +25,15 @@ relocate wm related configs
 
 make previews 
 
-add info 
+add info links
 
 setup & software info
 
 add credits
 
 add wallpapers
+
+emoji setup
 
 gestures, clipboard 
 # Credits
