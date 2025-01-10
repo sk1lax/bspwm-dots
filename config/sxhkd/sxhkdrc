@@ -1,0 +1,98 @@
+# ▗▄▄▖▗▖  ▗▖▗▖ ▗▖▗▖ ▗▖▗▄▄▄ ▗▄▄▖  ▗▄▄▖
+#▐▌    ▝▚▞▘ ▐▌ ▐▌▐▌▗▞▘▐▌  █▐▌ ▐▌▐▌
+# ▝▀▚▖  ▐▌  ▐▛▀▜▌▐▛▚▖ ▐▌  █▐▛▀▚▖▐▌
+#▗▄▄▞▘▗▞▘▝▚▖▐▌ ▐▌▐▌ ▐▌▐▙▄▄▀▐▌ ▐▌▝▚▄▄▖
+
+# Open Terminal
+super + {_,shift + }Return
+	{alacritty, bspc node -s biggest.local}
+
+# Quit BSPWM
+super + shift r
+	bspc wm -r
+# Restarts sxhkd
+super + shift s
+	pkill -USR1 -x sxhkd
+# Quit BSPWM
+super + shift q
+	bspc quit
+
+# Call rofi menus
+super + {d, x, p, b,}
+    {$HOME/.config/bspwm/rofi/scripts/launcher.sh, $HOME/.config/bspwm/rofi/scripts/powermenu.sh, $HOME/.config/bspwm/rofi/scripts/wallpaper.sh, $HOME/.config/bspwm/rofi/scripts/bluetooth.sh }
+
+#  #  #  #  #  KEYS
+
+# Volume Controls
+XF86AudioRaiseVolume
+    /home/skilax/.config/bspwm/bin/volume.sh --up
+XF86AudioLowerVolume
+    /home/skilax/.config/bspwm/bin/volume.sh --down
+XF86AudioMute
+    /home/skilax/.config/bspwm/bin/volume.sh --toggle
+# Brightness Controls
+XF86MonBrightness{Up,Down}
+	/home/skilax/.config/bspwm/bin/brightness.sh {--up, --down}
+#XF86MonBrightness{Up,Down}
+#  brightnessctl s 10{+,-}%
+
+#Caps_Lock
+super + space
+	~/.config/bspwm/bin/layout.sh
+# screenshot
+Print
+	flameshot gui
+shift + Print
+	flameshot full
+
+
+
+#  #  #  #  #  BSPWM
+
+
+#Kill window
+super + c
+	bspc node -{c}
+
+# set the window state
+super + Up
+	bspc node -t fullscreen
+super + Down
+	bspc node -t tiled
+
+# Switch workspace
+#super + {Left,Right}
+#	bspc desktop -f {prev,next}.local
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Change focus to next window, including floating window
+alt + {_,shift + }Tab
+    bspc node -f {next.local,prev.local}
+
+# Reboot
+super + ctrl + r
+        reboot
+
+# Power Off
+super + ctrl + p
+        poweroff
+
+# alternate between the tiled and floating layout
+super + t
+	bspc node -t "~"{floating, tiled}
+# Choose direction to open window
+super + alt + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+
+# Cancel direction to open window
+super + alt + space
+	bspc node -p cancel
+
+# Launch Applications
+super + shift + {f,n,t}
+	{flatpak run org.mozilla.firefox, \
+	nemo, \
+	telegram-desktop}
