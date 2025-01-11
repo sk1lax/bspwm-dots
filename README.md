@@ -1,3 +1,6 @@
+# Preview 
+![Didnt loaded ):](https://github.com/sk1lax/bspwm-dots/blob/main/assets/screenshot1.png)
+
 # Info
 | | Software |
 | ------------- | ------------- |
