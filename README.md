@@ -32,7 +32,9 @@
 - idk
 - 
 ## Setup
-
+```
+sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct
+```
 ## To do:
 | | |
 | ------------- | ------------- |
