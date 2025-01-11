@@ -27,7 +27,10 @@
 
 # Features
 - Script notifications for brightness/volume/layout
-- Rofi launcher, bluetooth/network manager, wallpaper selector 
+- Rofi launcher, bluetooth/network manager, wallpaper selector
+- Original panel
+- idk
+- 
 ## Setup
 
 ## To do:
