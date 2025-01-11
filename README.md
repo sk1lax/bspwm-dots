@@ -20,8 +20,10 @@
 |  Kvantum theme  | [Colors & blackness fork of Graphite-kde](https://github.com/KF-Art/Graphite-kvantum-colors)  |
 | Icons  | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  |
 
-
 Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles),  [adi1090x](https://github.com/adi1090x/)
+
+## Setup
+
 ## TO do:
 | | |
 | ------------- | ------------- |
@@ -32,5 +34,7 @@ Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfil
 | ❌  | gestures  |
 | ❌  | clipboard  |
 | ❌  | rewrite animations  |
+| ❌  | fish theme/config |
+
 
 
