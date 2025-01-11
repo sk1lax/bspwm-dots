@@ -8,7 +8,6 @@
 #	originally written by: gh0stzk - https://github.com/gh0stzk/dotfiles
 #	rewritten for hyprland by :	 develcooking - https://github.com/develcooking/hyprland-dotfiles
 #	rewritten for myself by : skilax - https://github.com/sk1lax/bspwm-dots
-#             yes, this is "forked" forked script
 # 				i had rofi launcher theme with picture and wanted to sync it with my wallpapers, also heavy images loads long in rofi, so this script compresses setted wallpaper. Now i dont use it, so now this is totally useless ig
 
 
