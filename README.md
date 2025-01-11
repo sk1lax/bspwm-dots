@@ -25,19 +25,25 @@
 
 > Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles),  [adi1090x](https://github.com/adi1090x/)
 
+# Features
+- Script notifications for brightness/volume/layout
+- Rofi launcher, bluetooth/network manager, wallpaper selector 
 ## Setup
 
 ## To do:
 | | |
 | ------------- | ------------- |
-| ❌  | relocate wm related configs  |
+| ❌  | relocate wm related configs (maybe) |
 | ❌  | add info links  |
-| ❌  | setup & software info  |
+| ❌  | setup info  |
 | ❌  | emoji  |
-| ❌  | gestures  |
+| ❌  | gestures (maybe) |
 | ❌  | clipboard  |
 | ❌  | rewrite animations  |
-| ❌  | fish theme/config |
+| ❌  | fish theme/config  (maybe) |
+| ❌  | Add more screenshots of my beatiful setup! |
+| ❌  | Add keybinds info (maybe) |
+
 
 
 
