@@ -24,7 +24,7 @@ Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfil
 
 ## Setup
 
-## TO do:
+## To do:
 | | |
 | ------------- | ------------- |
 | ❌  | relocate wm related configs  |
