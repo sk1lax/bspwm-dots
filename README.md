@@ -10,6 +10,8 @@
 | Shell  | Fish (stock cachy os config)  |
 | Term  | Alacritty  |
 | Notification  | Dunst  |
+| Compositor  | Picom  |
+
 
 | | Theming |
 | ------------- | ------------- |
@@ -21,20 +23,14 @@
 
 Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles),  [adi1090x](https://github.com/adi1090x/)
 ## TO do:
-relocate wm related configs
+| | |
+| ------------- | ------------- |
+| ❌  | relocate wm related configs  |
+| ❌  | add info links  |
+| ❌  | setup & software info  |
+| ❌  | emoji  |
+| ❌  | gestures  |
+| ❌  | clipboard  |
+| ❌  | rewrite animations  |
 
-make previews 
-
-add info links
-
-setup & software info
-
-add credits
-
-add wallpapers
-
-emoji setup
-
-gestures, clipboard 
-# Credits
 
