@@ -24,16 +24,39 @@
 | Icons  | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  |
 
 > Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles),  [adi1090x](https://github.com/adi1090x/)
-
-# Features
-- Script notifications for brightness/volume/layout
-- Rofi launcher, bluetooth/network manager, wallpaper selector
-- Original panel
-- idk
-- 
-## Setup
+> 
+## Notes
 ```
-sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct
+sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi nitrogen brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto
+```
+```
+paru -S envycontrol simplescreenrecorder rtl8821ce
+```
+```
+sudo pacman -S geany vlc flatpak timeshift
+```
+```
+sudo nano /etc/modprobe.d/nvidia.conf
+```
+```
+options nvidia-drm modeset=1
+options nvidia NVreg_UsePageAttributeTable=1 NVreg_InitializeSystemMemoryAllocations=0
+
+options nvidia "NVreg_DynamicPowerManagement=0x02"
+options nvidia "NVreg_PreserveVideoMemoryAllocations=1"
+```
+```
+sudo nano /etc/environment
+```
+```
+QT_STYLE_OVERRIDE=kvantum
+QT_QTA_PLATFORMTHEME=qt6ct;qt5ct
+XCURSOR_THEME=Bibata-Modern-Classic
+```
+```
+git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
+cd Graphite-gtk-theme/
+./install.sh --tweaks black normal -t blue
 ```
 ## To do:
 | | |
