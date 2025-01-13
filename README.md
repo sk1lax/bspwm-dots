@@ -27,7 +27,7 @@
 > 
 ## Notes
 ```
-sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi nitrogen brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto
+sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi nitrogen brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto nemo nemo-fileroller file-roller pavucontrol pamixer lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings vlc viewnior
 ```
 ```
 paru -S envycontrol simplescreenrecorder rtl8821ce
