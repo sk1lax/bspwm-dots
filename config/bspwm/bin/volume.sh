@@ -1,10 +1,12 @@
 #!/bin/bash
-#▄   ▄  ▄▄▄  █ █  ▐▌▄▄▄▄  ▗▞▀▚▖
-#█   █ █   █ █ ▀▄▄▞▘█ █ █ ▐▛▀▀▘
-# ▀▄▀  ▀▄▄▄▀ █      █   █ ▝▚▄▄▖
-#			 █			https://github.com/sk1lax/bspwm-dots
-#
-## Originally Script To Manage Speaker Volume For Axyl OS.
+#              __                                       _       __
+# _   ______  / /_  ______ ___  ___     _______________(_)___  / /_
+#| | / / __ \/ / / / / __ `__ \/ _ \   / ___/ ___/ ___/ / __ \/ __/
+#| |/ / /_/ / / /_/ / / / / / /  __/  (__  ) /__/ /  / / /_/ / /_
+#|___/\____/_/\__,_/_/ /_/ /_/\___/  /____/\___/_/  /_/ .___/\__/
+#                                                    /_/
+#			https://github.com/sk1lax/bspwm-dots
+#			   	Script to manage volume
 
 # Get Volume
 get_volume() {
