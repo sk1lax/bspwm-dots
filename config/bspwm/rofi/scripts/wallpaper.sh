@@ -1,10 +1,10 @@
 #!/bin/bash
-# ▄▄▄ ▄▄▄  ▗▞▀▀▘▄     ▄   ▄ ▗▞▀▜▌█ █ ▄▄▄▄  ▗▞▀▜▌▄▄▄▄  ▗▞▀▚▖ ▄▄▄
-#█   █   █ ▐▌   ▄     █ ▄ █ ▝▚▄▟▌█ █ █   █ ▝▚▄▟▌█   █ ▐▛▀▀▘█
-#█   ▀▄▄▄▀ ▐▛▀▘ █     █▄█▄█      █ █ █▄▄▄▀      █▄▄▄▀ ▝▚▄▄▖█
-#          ▐▌   █                █ █ █          █
-#                                    ▀          ▀
-#
+#               _____                   ____
+#   _________  / __(_)  _      ______ _/ / /___  ____ _____  ___  _____
+#  / ___/ __ \/ /_/ /  | | /| / / __ `/ / / __ \/ __ `/ __ \/ _ \/ ___/
+# / /  / /_/ / __/ /   | |/ |/ / /_/ / / / /_/ / /_/ / /_/ /  __/ /
+#/_/   \____/_/ /_/    |__/|__/\__,_/_/_/ .___/\__,_/ .___/\___/_/
+#                                      /_/         /_/
 #	originally written by: gh0stzk - https://github.com/gh0stzk/dotfiles
 #	rewritten for hyprland by :	 develcooking - https://github.com/develcooking/hyprland-dotfiles
 #	rewritten for myself by : skilax - https://github.com/sk1lax/bspwm-dots
