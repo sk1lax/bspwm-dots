@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
-
+#               _____             _ _____
+#   _________  / __(_)  _      __(_) __(_)
+#  / ___/ __ \/ /_/ /  | | /| / / / /_/ /
+# / /  / /_/ / __/ /   | |/ |/ / / __/ /
+#/_/   \____/_/ /_/    |__/|__/_/_/ /_/
+#
+#					NOT originially made by:
+#			 https://github.com/sk1lax/bspwm-dots
+#
 # Starts a scan of available broadcasting SSIDs
 # nmcli dev wifi rescan
 
