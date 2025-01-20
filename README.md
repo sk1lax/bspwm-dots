@@ -31,8 +31,9 @@ sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polyb
 ```
 ## 
 ```
-sudo pacman -S timeshift steam-native-runtime qbittorrent s-tui linux-headers dkms bc ntfs-3g memtester switcheroo-control tmux flatpak throttled
+sudo pacman -S timeshift steam-native-runtime steam wine wine-mono lutris qbittorrent s-tui linux-headers dkms bc ntfs-3g memtester switcheroo-control tmux flatpak throttled
 ```
+## Personal notes
 ```
 paru -S envycontrol simplescreenrecorder rtl8821ce-dkms-git
 ```
@@ -57,7 +58,18 @@ XCURSOR_THEME=Bibata-Modern-Classic
 ```
 sudo systemctl enable nvidia-powerd && sudo systemctl disable avahi-daemon && sudo systemctl enable throttled.service
 ```
-
+```
+sudo nano /etc/X11/xorg.conf.d/40-libinput.conf
+```
+```
+ Section "InputClass"
+  Identifier "libinput pointer catchall"
+  MatchIsPointer "on"
+  MatchDevicePath "/dev/input/event*"
+  Driver "libinput"
+  Option "AccelProfile" "flat"
+ EndSection
+```
 ## To do:
 | | |
 | ------------- | ------------- |
