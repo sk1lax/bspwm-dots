@@ -25,15 +25,16 @@
 
 > Took some inspiration & configs from [gh0stzk](https://github.com/gh0stzk/dotfiles),  [adi1090x](https://github.com/adi1090x/)
 > 
-## Notes
+# Setup
 ```
-sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi nitrogen brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto nemo nemo-fileroller file-roller pavucontrol pamixer lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings vlc viewnior
+sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi dunst brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto nemo nemo-fileroller file-roller pavucontrol pamixer lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings vlc viewnior nvtop btop blueman yazi ueberzugpp chafa geany network-manager-applet micro 
+```
+## 
+```
+sudo pacman -S timeshift steam-native-runtime qbittorrent s-tui linux-headers dkms bc ntfs-3g memtester switcheroo-control tmux flatpak throttled
 ```
 ```
-paru -S envycontrol simplescreenrecorder rtl8821ce
-```
-```
-sudo pacman -S geany vlc flatpak timeshift
+paru -S envycontrol simplescreenrecorder rtl8821ce-dkms-git
 ```
 ```
 sudo nano /etc/modprobe.d/nvidia.conf
@@ -54,10 +55,9 @@ QT_QTA_PLATFORMTHEME=qt6ct;qt5ct
 XCURSOR_THEME=Bibata-Modern-Classic
 ```
 ```
-git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
-cd Graphite-gtk-theme/
-./install.sh --tweaks black normal -t blue
+sudo systemctl enable nvidia-powerd && sudo systemctl disable avahi-daemon && sudo systemctl enable throttled.service
 ```
+
 ## To do:
 | | |
 | ------------- | ------------- |
@@ -71,6 +71,9 @@ cd Graphite-gtk-theme/
 | ❌  | fish theme/config  (maybe) |
 | ❌  | Add more screenshots of my beatiful setup! |
 | ❌  | Add keybinds info (maybe) |
+| ❌  | Find better bluetooth & network methods |
+| ❌  | Make this rice squared |
+
 
 
 
