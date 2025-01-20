@@ -79,12 +79,13 @@ sudo nano /etc/X11/xorg.conf.d/40-libinput.conf
 | ❌  | emoji  |
 | ❌  | gestures (maybe) |
 | ❌  | clipboard  |
-| ❌  | rewrite animations  |
+| ❌  | rewrite animations (not happening) |
 | ❌  | fish theme/config  (maybe) |
 | ❌  | Add more screenshots of my beatiful setup! |
 | ❌  | Add keybinds info (maybe) |
 | ❌  | Find better bluetooth & network methods |
 | ❌  | Make this rice squared |
+| ❌  | Write normal picom cfg |
 
 
 
