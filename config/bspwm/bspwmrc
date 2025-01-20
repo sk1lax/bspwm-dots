@@ -35,6 +35,7 @@ bspc rule -a SimpleScreenRecorder center=true  follow=on state=floating &
 bspc rule -a vlc follow=on center=true state=floating &
 bspc rule -a org.gnome.FileRoller follow=on center=true state=floating rectangle=500x700 &
 bspc rule -a Viewnior state=floating center=true &
+bspc rule -a Blueman-manager state=floating rectangle=800x400+1120+630 &
 #bspc rule -a plank layer=above manage=on border=off focus=off locked=on
 #*****----- Window Gaps -----*****
 bspc config gapless_monocle false &
