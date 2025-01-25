@@ -1,5 +1,11 @@
 # Preview 
+## Rounded
 ![Didnt loaded ):](https://github.com/sk1lax/bspwm-dots/blob/main/assets/screenshot2.png)
+![Didnt loaded ):](https://github.com/sk1lax/bspwm-dots/blob/main/assets/rounded2.png)
+
+## Squared
+![Didnt loaded ):](https://github.com/sk1lax/bspwm-dots/blob/main/assets/squared1.png)
+![Didnt loaded ):](https://github.com/sk1lax/bspwm-dots/blob/main/assets/squared2.png)
 
 # Info
 | | Software |
