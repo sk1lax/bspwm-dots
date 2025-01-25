@@ -1,0 +1,14 @@
+/**
+ *
+ * Pallete taken from graphite gtk theme
+ *
+ **/
+
+* {
+    background:     #0f0f0f;
+    background-alt: #1f1f1f;
+    foreground:     #c1c1c1;
+    selected:       #1f1f1f;
+    active:         #3684dd;
+    urgent:         #e53935;
+}

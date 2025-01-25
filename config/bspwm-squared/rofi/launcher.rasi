@@ -1,0 +1,104 @@
+///	   	   __                             __
+///	   	  / /___ ___  ______  ____  _____/ /_  ___  _____
+///	     / / __ `/ / / / __ \/ __ \/ ___/ __ \/ _ \/ ___/
+///	    / / /_/ / /_/ / / / / / / / /__/ / / /  __/ /
+///	   /_/\__,_/\__,_/_/ /_/_/ /_/\___/_/ /_/\___/_/
+///
+///				https://github.com/sk1lax/bspwm-dots
+
+@import "shared.rasi"
+
+configuration {
+	modi:                       "drun";
+    show-icons:                 true;
+    display-drun:               " ";
+}
+
+* {
+
+    background-color:   transparent;
+    text-color:         @foreground;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    location:   center;
+    width:      480;
+
+    background-color:   @background;
+
+	border:			5px solid;
+	border-color:	@background-alt;
+}
+
+inputbar {
+    spacing:    8px;
+    padding:    8px;
+
+    background-color:   @background-alt;
+}
+
+prompt, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: @active;
+}
+
+textbox {
+    padding:            8px;
+    background-color:   @background-alt;
+}
+
+listview {
+    padding:    4px 0;
+    lines:      8;
+    columns:    1;
+
+    fixed-height:   false;
+}
+
+element {
+    padding:    9px;
+    spacing:    9px;
+}
+
+element normal normal {
+    text-color: @foreground;
+}
+
+element normal urgent {
+    text-color: @urgent;
+}
+
+element normal active {
+    text-color: @active;
+}
+
+element alternate active {
+    text-color: @active;
+}
+
+element selected {
+    text-color: @background;
+}
+
+element selected normal, element selected active {
+    background-color:   @active;
+}
+
+element selected urgent {
+    background-color:   @urgent;
+}
+
+element-icon {
+    size:   2.5%;
+}
+
+element-text {
+    text-color: inherit;
+}
