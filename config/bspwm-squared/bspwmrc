@@ -18,6 +18,7 @@ sxhkd &
 nitrogen --restore
 picom &
 plank &
+lxpolkit &
 flameshot &
 alsa &
 dunst -conf ~/.config/bspwm/dunstrc &
