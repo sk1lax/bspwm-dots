@@ -17,6 +17,7 @@ sxhkd &
 feh --no-fehbg --bg-fill ~/Pictures/bg.png &
 picom &
 plank &
+lxpolkit &
 flameshot &
 alsa &
 #xdotool search --name Plank windowraise &
