@@ -38,7 +38,7 @@
 > 
 # Setup
 ```
-sudo pacman -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi dunst brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto nemo nemo-fileroller file-roller pavucontrol pamixer lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings vlc viewnior nvtop btop blueman yazi ueberzugpp chafa geany network-manager-applet micro nitrogen bluetui 
+paru -S flameshot kvantum kvantum-qt5 qt5ct qt6ct picom bspwm sxhkd polybar rofi dunst brightnessctl feh imagemagick redshift plank nwg-look ttf-roboto nemo nemo-fileroller file-roller pavucontrol pamixer lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings vlc viewnior nvtop btop blueman yazi ueberzugpp chafa geany network-manager-applet micro nitrogen lxsession-gtk3 bluetuith
 ```
 ## 
 ```
@@ -46,7 +46,7 @@ sudo pacman -S timeshift steam-native-runtime steam wine wine-mono lutris qbitto
 ```
 ## Personal notes
 ```
-paru -S envycontrol simplescreenrecorder rtl8821ce-dkms-git
+paru -S envycontrol simplescreenrecorder rtl8821ce-dkms-git  
 ```
 ```
 sudo nano /etc/modprobe.d/nvidia.conf
