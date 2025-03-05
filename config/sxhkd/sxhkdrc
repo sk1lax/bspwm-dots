@@ -98,4 +98,5 @@ super + alt + space
 super + shift + {f,n,t}
 	{firefox, \
 	nemo, \
-	flatpak run org.telegram.desktop }
+	flatpak run org.telegram.desktop, \
+	alacritty --title calc -e python }
